@@ -1,4 +1,4 @@
-#PARA INSTALAR UNA LIBRERIA#
+###**PARA INSTALAR UNA LIBRERIA**####
 Install.packages("raster")
 
 #Para cargar una libreria#
@@ -26,7 +26,7 @@ class(my_numeric)
 class(my_character)
 class(my_logical)
 vegas="Go!"
-=======================vectors============================================
+###**vectors**###
 numeric_vector=c(1,10.49)
 character_vector=c("a","b","C")
 boolean_vector=c(TRUE,FALSE,TRUE)
@@ -69,7 +69,7 @@ selection_vector=poker_vector>0
 selection_vector
 poker_winning_days=roulette_vector[selection_vector]
 poker_winning_days
-======================matrix============================================
+###***matrix***###
 #Construct a matrix with 3 rows that contain the numbers 1 up to 9
 matrix(1:9, byrow= TRUE, nrow= 3)
 
@@ -180,7 +180,7 @@ str(data)
 p=ggplot(data=data, aes(x=alumnos, y=calificacion)) + geom_bar(stat="identity")
 p
 p + coord_flip()
-===================================GGPLOT====================================================
+###**GGPLOT**###
 set.seed(136)
 df <- data.frame(y = rnorm(300),group = sample(LETTERS[1:3],size = 300,replace = TRUE)) 
 df
@@ -216,7 +216,7 @@ In geom_violin(with = 0.07) :
 > box + geom_boxplot(A=group"grey")
 
 
-=================================Heatmap==========================================================================
+###**Heatmap**###
 data <- as.matrix(mtcars)
 str(data)
 heatmap(data)
@@ -255,7 +255,7 @@ RStudioGD
 
 
 
-============================================================ VARCROT ==============================================================
+###**VARCROT**### 
 
 library(ggplot2)
 library(ggstatsplot)
